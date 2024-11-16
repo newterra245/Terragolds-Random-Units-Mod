@@ -1,0 +1,53 @@
+type: legs
+name: "Volume"
+description: "A quadrupedal unit armed with devastating flak cannons"
+health: 860
+armor: 4
+speed: 0.8
+rotateSpeed: 2.5
+legCount: 4
+legLength: 14
+legForwardScl: 0.6
+legMoveSpace: 1.4
+hovering: true
+groundLayer: 60
+hitSize: 12
+weapons: [
+  {
+    name: volume-flak
+    top: true
+    x: 0
+    y: 0
+    reload: 25
+    rotate: true
+    rotateSpeed: 3
+    mirror: false
+    shootSound: blaster
+    shake: 2
+    bullet: {
+      type: FlakBulletType
+      damage: 25
+      splashDamage: 35
+      splashDamageRadius: 24
+      speed: 4
+      lifetime: 45
+      width: 8
+      height: 10
+      shootEffect: shootBig
+      frontColor: 6e7eff
+      backColor: 5757c1
+      fragBullets: 8
+      fragBullet: {
+        type: BasicBulletType
+        damage: 8
+        speed: 3
+        lifetime: 15
+        width: 3
+        height: 4
+        frontColor: 6e7eff
+        backColor: 5757c1
+      }
+    }
+  }
+]
+

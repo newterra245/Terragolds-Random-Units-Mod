@@ -1,0 +1,47 @@
+type: UnitFactory
+name: "The Custom Unit Factory"
+description: "Produces custom advanced units"
+size: 3
+health: 1200
+consumes: {
+  power: 2.5
+}
+plans: [
+  {
+    unit: sparrow
+    time: 900
+    requirements: [
+      silicon/45
+      lead/40
+      titanium/20
+    ]
+  }
+  {
+    unit: volume
+    time: 1200
+    requirements: [
+      silicon/50
+      titanium/45
+      thorium/35
+    ]
+  }
+  {
+    unit: cone
+    time: 1500
+    requirements: [
+      silicon/60
+      plastanium/45
+      thorium/40
+      surge-alloy/25
+    ]
+  }
+]
+category: units
+research: air-factory
+requirements: [
+  copper/200
+  lead/150
+  silicon/80
+  titanium/80
+]
+

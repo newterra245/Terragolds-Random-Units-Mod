@@ -1,0 +1,28 @@
+
+type: flying
+name: "Cone"
+description: "A factory unit that produces life-stealing minion drones"
+health: 980
+armor: 5
+speed: 0.8
+rotateSpeed: 2
+hitSize: 20
+buildSpeed: 2.5
+commands: [move, assist, rebuild]
+weapons: [
+  {
+    name: minion-factory
+    x: 0
+    y: 0
+    mirror: false
+    reload: 300
+    rotate: false
+    shootSound: respawn
+    bullet: {
+      type: UnitSpawnBulletType
+      lifetime: 0
+      spawnUnit: cone-minion
+    }
+  }
+]
+

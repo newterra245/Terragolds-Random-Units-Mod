@@ -1,0 +1,12 @@
+name: custom-units
+displayName: Terragolds Custom Units mod
+author: [acid]Terragold[] and [orange]Claude 3.5 sonnet
+subtitle: adds alot of new units
+description: 
+'''
+This planet has (almost) every single field you can declare in JSON planets. Press the "Repo" button below to see the source code.
+
+This is NOT meant to be played.
+'''
+repo:none (:/
+minGameVersion: 146
